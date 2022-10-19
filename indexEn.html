@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIDRAULICA</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./lib/particles.js-master/demo/css/style.css">
+    <link rel="stylesheet" type="text/css" href="./lib/fullPage.js-master/dist/fullpage.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-mobile.css">
+</head>
+<body>
+    
+
+<!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-transparent bg-light fixed-top">
+        <a class="navbar-brand" href="#home"><img src="./res/logoHDC.png" class="nav-icon" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <svg xmlns="http://www.w3.org/2000/svg"  class="icon-toggler" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto" >
+                <li class="nav-item first-item ">
+                  <a class="nav-link" href="#home">HOME</a>
+                </li>
+                <li class="nav-item" >
+                  <a class="nav-link" href="#us" >OUR COMPANY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#heading">ITEMS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#products">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">SERVICES</a>
+                </li>
+                <li class="nav-item last-item">
+                  <a class="nav-link" href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav> 
+<!--navbar-->
+
+<!--networks and lenguaje-->
+    <div class="container-networks-lenguaje">
+      <a target="_blank" href="https://www.instagram.com/hidraulicadc/">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+      </svg>
+    </a>
+      <a target="_blank" href="https://www.facebook.com/HIDRAULICADC">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      </svg>
+    </a>
+      <a target="_blank" href="https://ar.linkedin.com/company/hidr%C3%A1ulica-dc-srl">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+        </svg>
+      </a>
+  <!--imgVertical-->
+      <img src="./res/hrVertical.png" class="hr-vertical" alt="">
+  <!--imgVertical-->
+  <!--lenguaje-->
+      <div class="contenedor-lenguaje">
+        <a href="./index.html" class="btn-español ">ES</a>
+        
+        <a href="./indexEn.html" class="btn-ingles active">EN</a>
+      </div>
+  <!--lenguaje-->
+    </div>
+<!--networks and lenguaje-->
+
+<!--Page-->
+    <div id="fullpage">
+    
+  
+      <!--home-->
+        <div class="section" id="home" >
+          
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                      <h2 class="text-top-home">MORE THAN 30 YEARS</h2>
+                      <h1 class="text-bottom-home"><span class="span-home">
+                        PROMOTING BUSINESS</span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="eatons-vikers-logos">
+              <img src="./res/Eaton.png" class="eaton" alt="">
+              <img src="./res/vikers.png" class="vikers" alt="">
+              <img src="./res/Danfoss.png" class="danfos" alt="">
+            </div>
+            <div id="particles-js"></div>
+          </div>
+      <!--home-->
+
+      <!--Us-->
+        <div class="section" id="us" >
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-5 flex-center">
+                  <img src="./res/hex-us.png" class="img-us" alt="">
+                </div>
+
+                <div class="col-md-7 padding-r-50">
+                  <div class= "flex-center-right flex-mobile-center">
+
+                    <h1 class="text-bottom-us"><span class="span-us">OUR COMPANY</span></h1>
+
+                    <h2 class="text-us">We are a company <b>
+                      specialized in oil hydraulics</b>, <br class="no-screen"> that we prioritize <br> service for
+                      provide comprehensive solutions.
+                    </h2>
+
+                    <h2 class="text-us">We are dedicated to designing, manufacturing, selling, testing, installing, repairing, commissioning
+                      operation and technical advice of oil-hydraulic equipment
+                      for the different sectors and items at the national level.</h2>
+        
+                    <h2 class="text-us"><b>We represent EATON HYDRAULICS</b>
+                      (Currently merged with Danfoss)<br> and we work with a wide range of imported brands and
+                      nationals; in order to provide the best alternatives according to the client's needs.
+                      Being members of the Chamber of Metallurgical and Components Industrialists of Córdoba - CIMCC; of the Cluster
+                      Industrial Oil, Gas and Mining of Córdoba - PGM;
+                      the Córdoba Mining Suppliers Group - PROMINCOR, among others;<br>
+                      has contributed to our being widely recognized in the country and in the world.</h2>
+
+                    <div class="row mobile-margin">
+                     <!--   <button class="btn-us">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-collection-play" viewBox="0 0 16 16">
+                            <path d="M2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1zm2.765 5.576A.5.5 0 0 0 6 7v5a.5.5 0 0 0 .765.424l4-2.5a.5.5 0 0 0 0-.848l-4-2.5z"/>
+                            <path d="M1.5 14.5A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zm13-1a.5.5 0 0 0 .5-.5V6a.5.5 0 0 0-.5-.5h-13A.5.5 0 0 0 1 6v7a.5.5 0 0 0 .5.5h13z"/>
+                          </svg>  INSTITUTIONAL VIDEO
+                        </button>-->
+                       <a target="_blank" href="./public_card/Empleados/Cristian_Castillo/indexEn.html"><button class="btn-us">
+                        OUR WORK TEAM</button></a> 
+                    </div>
+                       
+
+
+                  </div>
+                 
+                </div>
+              </div>
+            </div>
+        </div>
+      <!--Us-->
+
+      <!--heading-->
+        <div class="section" id="heading" >
+
+           <div class="slide siderurgia">
+               <div class="container-fluid">
+                 <div class="row">
+                  <div class="col-md-12 h-30"></div>
+                   <div class="col-md-6"></div>
+                   <div class="col-md-6 center-mobile">
+                    <h5 class="heading-title">ITEMS</h5>
+                    <h1 class="heading-name">IRON AND STEEL INDUSTRY</h1>
+                    <img src="./res/hr-white.png" class="hr-white" alt="">
+               <!--     <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                  <button class="heading-btn">CONTACT ADVISOR</button>-->
+                   </div>
+                 </div>
+               </div>     
+            </div>
+           
+           <div class="slide mineria">
+            <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-12 h-30"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                 <h5 class="heading-title">ITEMS</h5>
+                 <h1 class="heading-name">
+                  MINING</h1>
+                 <img src="./res/hr-white.png" class="hr-white" alt="">
+              <!--  <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                 <button class="heading-btn">CONTACT ADVISOR</button>--> 
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="slide agricola">
+            <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-12 h-30"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                 <h5 class="heading-title">ITEMS</h5>
+                 <h1 class="heading-name">AGROBUSINESS</h1>
+                 <img src="./res/hr-white.png" class="hr-white" alt="">
+              <!--   <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                 <button class="heading-btn">CONTACT ADVISOR</button>-->
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="slide petroleo">
+            <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-12 h-30"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                 <h5 class="heading-title">ITEMS</h5>
+                 <h1 class="heading-name">PETROLEUM</h1>
+                 <img src="./res/hr-white.png" class="hr-white" alt="">
+              <!--   <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                 <button class="heading-btn">CONTACT ADVISOR</button>-->
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="slide mobil">
+            <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-12 h-30"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                 <h5 class="heading-title">ITEMS</h5>
+                 <h1 class="heading-name">MOBILE</h1>
+                 <img src="./res/hr-white.png" class="hr-white" alt="">
+              <!--  <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                 <button class="heading-btn">CONTACT ADVISOR</button>--> 
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="slide naval">
+            <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-12 h-30"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                 <h5 class="heading-title">ITEMS</h5>
+                 <h1 class="heading-name">NAVAL</h1>
+                 <img src="./res/hr-white.png" class="hr-white" alt="">
+             <!--   <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                 <button class="heading-btn">CONTACT ADVISOR</button>--> 
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="slide industrias">
+            <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-12 h-30"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                 <h5 class="heading-title">ITEMS</h5>
+                 <h1 class="heading-name">INDUSTRIES</h1>
+                 <img src="./res/hr-white.png" class="hr-white" alt="">
+              <!-- <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                 <button class="heading-btn">CONTACT ADVISOR</button>-->  
+                </div>
+              </div>
+            </div>
+           </div>
+
+           <div class="slide algodon">
+            <div class="container-fluid">
+              <div class="row">
+               <div class="col-md-12 h-30"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                 <h5 class="heading-title">ITEMS</h5>
+                 <h1 class="heading-name">COTTON</h1>
+                 <img src="./res/hr-white.png" class="hr-white" alt="">
+              <!--  <h6 class="heading-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+                 <button class="heading-btn">CONTACT ADVISOR</button>--> 
+                </div>
+              </div>
+            </div>
+           </div>
+
+
+        </div>
+      <!--heading-->
+
+      <!--products-->
+        <div class="section" id="products" >
+        
+          <div  id="bloqueo">
+          
+            <h4 class="text-prox-one">CATALOGUE</h4>
+            <h2 class="text-prox-two">COMING SOON</h2>
+         
+        </div>
+
+           <div class="conteiner" id="contenedor">
+             <div class="row">
+               <div class="col-md-1"></div>
+               <div class="col-md-10">
+                 <h5 class="products-title">PRODUCTS</h5>
+                 <h1 class="catalog-title">CATALOGUE</h1>
+                 <h6 class="products-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Aspernatur quos labore assumenda, ut rerum ullam suscipit eius eos ipsam cumque quas magni perferendis hic inventore.</h6>
+              </div>
+              <div class="col-md-1"></div>
+             
+              <div class="flex-cards container">
+                  <div class="flex-center">
+                    
+
+                    
+                    <div class="col-md-3 card card-product">
+                      
+                      <!--PRODUCTO IMG-->
+                      <img class="img-product" src="./res/Productos/tarjeta1.png" alt="">
+                      <!--PRODUCTO IMG-->
+
+                      <!--NOMBRE PRODUCTO-->
+                      <h4 class="name-product">
+                        PISTON PUMPS</h4>
+                      <!--NOMBRE PRODUCTO-->
+
+                      <!--MARCA-->
+                      <h5 class="brand-product">EATON</h5>
+                      <!--MARCA-->
+
+                      <div class="btn-products">
+
+                      <a href=""> <button class="btn btn-primary btn-first">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                        </svg>
+                      </button> </a>
+
+                      <a href=""> <button class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg></a>
+
+                      <a href=""> <button class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z"/>
+                          <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                        </svg>
+                      </button> </a>
+
+                      </div>
+                    </div>
+
+                   
+
+
+                    <div class="col-md-3 card card-product">
+                      
+                      <!--PRODUCTO IMG-->
+                      <img class="img-product" src="./res/Productos/tarjeta1.png" alt="">
+                      <!--PRODUCTO IMG-->
+
+                      <!--NOMBRE PRODUCTO-->
+                      <h4 class="name-product">
+                        PISTON PUMPS</h4>
+                      <!--NOMBRE PRODUCTO-->
+
+                      <!--MARCA-->
+                      <h5 class="brand-product">EATON</h5>
+                      <!--MARCA-->
+
+                      <div class="btn-products">
+
+                      <a href=""> <button class="btn btn-primary btn-first">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                        </svg>
+                      </button> </a>
+
+                      <a href=""> <button class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg></a>
+
+                      <a href=""> <button class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z"/>
+                          <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                        </svg>
+                      </button> </a>
+
+                      </div>
+                    </div>
+
+                   
+
+                    <div class="col-md-3 card card-product">
+                      
+                      <!--PRODUCTO IMG-->
+                      <img class="img-product" src="./res/Productos/tarjeta1.png" alt="">
+                      <!--PRODUCTO IMG-->
+
+                      <!--NOMBRE PRODUCTO-->
+                      <h4 class="name-product">
+                        PISTON PUMPS</h4>
+                      <!--NOMBRE PRODUCTO-->
+
+                      <!--MARCA-->
+                      <h5 class="brand-product">EATON</h5>
+                      <!--MARCA-->
+
+                      <div class="btn-products">
+
+                      <a href=""> <button class="btn btn-primary btn-first">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                        </svg>
+                      </button> </a>
+
+                      <a href=""> <button class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg></a>
+
+                      <a href=""> <button class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z"/>
+                          <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                        </svg>
+                      </button> </a>
+
+                      </div>
+                    </div>
+                   
+                   
+                    <div class="col-md-3 card card-product">
+                      
+                      <!--PRODUCTO IMG-->
+                      <img class="img-product" src="./res/Productos/tarjeta1.png" alt="">
+                      <!--PRODUCTO IMG-->
+
+                      <!--NOMBRE PRODUCTO-->
+                      <h4 class="name-product">
+                        PISTON PUMPS</h4>
+                      <!--NOMBRE PRODUCTO-->
+
+                      <!--MARCA-->
+                      <h5 class="brand-product">EATON</h5>
+                      <!--MARCA-->
+
+                      <div class="btn-products">
+
+                      <a href=""> <button class="btn btn-primary btn-first">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"/>
+                        </svg>
+                      </button> </a>
+
+                      <a href=""> <button class="btn btn-primary">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+                        </svg></a>
+
+                      <a href=""> <button class="btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cloud-arrow-down" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M7.646 10.854a.5.5 0 0 0 .708 0l2-2a.5.5 0 0 0-.708-.708L8.5 9.293V5.5a.5.5 0 0 0-1 0v3.793L6.354 8.146a.5.5 0 1 0-.708.708l2 2z"/>
+                          <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                        </svg>
+                      </button> </a>
+
+                      </div>
+                    </div>
+                    
+                  </div>
+              </div>
+               
+            </div> 
+            </div>
+          
+
+          
+         
+
+        </div>
+      <!--products-->
+
+      <!--services-->
+        <div class="section" id="services" >
+          
+            <div class="conteiner">
+              <div class="row">
+                <div class="col-md-12">
+                 <h5 class="services-title">SERVICES</h5>
+                 <h1 class="desing-title">
+                  DESIGN AND REPAIR</h1>
+                 <h6 class="services-text">Get to know our catalog of services.</h6>
+                </div>
+                <div class="box100"></div>
+              </div>
+            </div>
+                
+            <div class="flex-bottom">
+                
+              <div class="container">
+                <div class="row center">
+                  <div class="col-md-3 card card-service card1">
+                        
+                    <img src="./res/icon_calculos.png" class="icons"  alt="">
+                    <h2 class="title-services-card">calculation, design and
+                      power plant manufacturing</h2>
+                    <h4 class="content-card1">
+                      Different oil-hydraulic products are repaired daily in our workshops, following the manufacturer's requirements in order to restore the original performance and useful life.
+                    </h4>
+                  <!-- <button class="btn-calc btn">CALCULATE</button>-->
+                  </div>
+              
+
+                <div class="col-md-3 card card-service card2">
+                    <img src="./res/icon_reparaciones.png" class="icons"  alt="">
+                    <h2 class="title-services-card">Repairs</h2>
+                    <h4 class="content-card">We manufacture hydraulic units according to the needs of the application and request of our clients, which are calculated and designed by our Technical Office.
+                    </h4>
+                  </div>
+               
+
+                <div class="col-md-3 card card-service card3">
+                    <img src="./res/icon_banco_de_pruebas.png"  class="icons"  alt="">
+                    <h2 class="title-services-card">Bench tests</h2>
+                    <h4 class="content-card">
+                      The repairs are delivered guaranteed by the technical report that comes from the test carried out on the bench, today with 200 HP and soon with 450 HP available, repowering currently underway.</h4>
+                  </div>
+          
+
+                <div class="col-md-3 card card-service card4">
+                 
+                    <img src="./res/icon_ingenieria.png" class="icons" alt="">
+                    <h2 class="title-services-card">Engineering</h2>
+                    <h4 class="content-card">We define in this item all the special projects requested, which are developed and have been developed by our technical staff, some examples already executed are: Pumping system for linters, earth and ashes for the manufacture of soybean meal in General Deheza Oil; etc.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+                     
+                    
+            </div>
+      
+                  
+        </div>
+      <!--services-->
+
+      <!--contact-->
+        <div class="section" id="contact" >
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 ">
+                  <div class="flex-center-left">
+                    <h5 class="first-title-contact">
+                      WE WANT TO KNOW YOU</h4>
+                      <h4 class="second-title-contact">CONTACT US</h5>
+                      <h6 class="sub-title-contact">
+                        Fill out this form and a sales advisor will contact you shortly.</h6>
+                  </div>
+                </div>
+                <div class="col-md-1"></div>
+
+                <div class="col-md-3 card card-form">
+                  <h4 class="card-form-title">
+                    LEAVE US YOUR DATA</h4>
+                  <h6  class="card-form-subTitle">AND WE WILL CONTACT YOU</h6>
+
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST"
+                  action="URL" method="post" onsubmit="ga('send', 'event', 'enviar', 'blog', 0);">
+                  <div class="col-md-12">
+                    <h2 class="textTitleCardData"></h2> <input placeholder="Name:" type="text" id="name"
+                      name="name" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <h2 class="textTitleCardData"></h2> <input placeholder="Email:" type="text" id="email"
+                      name="email" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <h2 class="textTitleCardData"></h2> <input placeholder="Cell phone:" type="text" id="subject"
+                      name="subject" class="form-control">
+                  </div>
+                  <div class="col-md-12">
+                    <h2 class="textTitleCardData"
+                      style="text-align: left; color: rgb(0, 0, 0); margin-top: 10px;"></h2><textarea
+                      type="text" placeholder="Your question:" id="message" name="message" rows="1"
+                      class="form-control md-textarea"></textarea>
+                  </div>
+                </form>
+
+
+                <button class="btn btn-primary btnSubmit" id="submit"
+                  onclick="validateForm()"> SEND </button>
+
+                </div>
+
+                <div class="col-md-1"></div>
+                <div class="flex-bottom-mobile footer">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-md-2">
+                        <img src="./res/logoHDC.png "alt="" class="icon-footer">
+                      </div>
+
+                      <div class="col-md-3">
+                        <h6 class="text-uppercase font-weight-bold">
+                          CONTACT</h6>
+          
+                          <p>
+                            <a class="links" target="_blank" href="https://www.google.com/maps/place/Hidr%C3%A1ulica+DC+S.R.L./@-31.4036412,-64.1795452,16z/data=!4m12!1m6!3m5!1s0x0:0x871a22cf8d79cfa2!2sHidr%C3%A1ulica+DC+S.R.L.!8m2!3d-31.4037401!4d-64.1750749!3m4!1s0x0:0x871a22cf8d79cfa2!8m2!3d-31.4037401!4d-64.1750749">Cochabamba 892 - B. Puerreydón</a> 
+                           </p>
+                           <p>
+                             <a class="links" target="_blank" href="https://wa.me/543516180512">+54 351 6180512</a>
+                           </p>
+                           <p>
+                             <a class="links" target="_blank" href="https://wa.me/54351421906">+54 351 421906</a>
+                           </p>
+                           <p>
+                             <a class="links" target="_blank" href="mailto:info@hidraulicadc.com.ar">info@hidraulicadc.com.ar</a>
+                           </p>
+                      </div>
+
+                      <div class="col-md-2 last-link">
+
+                        <h6 class="text-uppercase font-weight-bold ">TEAM</h6>
+          
+                        <p>
+                          <a class="links" href="./public_card/Empleados/Cristian_Castillo/indexEn.html">Technical</a>  
+                        </p>
+                        <p>
+                         <a class="links" href="./public_card/Empleados/Marcos_Ordoñes/indexEn.html">Managerial</a> 
+                        </p>
+                        <p>
+                          <a class="links" href="./public_card/Empleados/Andres_Chali/indexEn.html">Sales</a>
+                        </p>
+
+                      </div>
+
+                      
+                        <div class="eatons-vikers-logos">
+                          <img src="./res/Eaton.png" class="eaton" alt="">
+                          <img src="./res/vikers.png" class="vikers" alt="">
+                          <img src="./res/Danfoss.png" class="danfos" alt="">
+                        </div>
+                      
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      <!--contact-->
+
+    </div>
+  <!--contact-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./lib/fullPage.js-master/vendors/easings.min.js"></script>
+    <script src="./lib/fullPage.js-master/vendors/scrolloverflow.js"></script>
+    <script src="./lib/fullPage.js-master/dist/fullpage.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script> 
+    <script>
+        new fullpage('#fullpage', {
+	        //options here
+            autoScrolling:true,
+            scrollHorizontally: false,
+            slidesNavigation: true,
+            responsiveWidth: 800
+        });
+        //methods
+        
+    </script>
+
+    <script src="./lib/particles.js-master/particles.js"></script>
+    <script src="./lib/particles.js-master/demo/js/app.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'particles.json',
+        function () {
+          console.log("particles.json loaded...");
+
+        });
+    </script>
+        <script src="./validateformEn.js"></script>
+</body>
+</html>

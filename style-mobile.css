@@ -1,0 +1,431 @@
+
+@media (max-width: 767.98px) {
+ /*general*/
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box !important;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    a{
+        color: white;
+    }
+
+    h2{
+        font-size: 7vw;
+    }
+    
+    h1{
+        font-size: 7vw;
+    }
+    
+ /*general*/
+
+/*Util*/
+    .flex-mobile-center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .right-bottom{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        height: 100vh !important;
+        flex-direction: column;
+    }
+
+    .h-30{
+        height: 10vh;
+    }
+
+    .padding-r-50{
+        padding: 15px !important;
+    }
+
+    #products{
+        background-image: url(./res/products.png);
+        background-size: cover;
+        background-position: right;
+        display: none;
+    }
+
+/*Util*/
+
+/*Unicas*/
+    .fp-bottom ul li a span {
+        display: none;
+    }
+    
+    .btn-us{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 10px;
+            border: 1px solid;
+    }
+
+    .btn-us:hover{
+        background-color: rgb(240, 89, 41);
+        border: 1px solid rgb(240, 89, 41);
+    }
+    .hr-white{
+        opacity: 0;
+    }
+
+    .navbar-nav{
+        border-bottom: rgba(255, 255, 255, 0.534) 1px solid !important; 
+        border-top: rgba(255, 255, 255, 0.534) 1px solid !important; 
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+       
+    }
+
+    .nav-icon{
+        height: 50px;
+        padding: 2px;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    .navbar-transparent{
+        background-color: rgba(0, 0, 0, 0.863) !important;
+
+    }
+    
+    .card-product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 290px;
+        margin-top: 30px;
+        background-color: rgb(43, 43, 43) !important;
+        border: 0px transparent solid !important;
+        margin-right: 25px;
+        display: none !important;
+    
+    }
+
+    .navbar-toggler{
+        background-color: rgba(0, 0, 0, 0);
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .icon-toggler{
+        height: 20px !important;
+        fill: white;
+    }
+    
+    .text-top-home{
+        margin-top: 0vh;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .text-bottom-home {
+        text-align: center; 
+    }
+
+    .text-bottom-home span{
+        background-color: rgba(255, 72, 0, 0.726);
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center; 
+    }
+    
+    .text-bottom-us span{
+        background-color: rgba(255, 72, 0, 0.726);
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center; 
+    }
+    
+    .eatons-vikers-logos{
+      position: absolute;
+      display: none;
+    
+    }
+
+
+    .eaton{
+        
+        height: 22px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    
+    .vikers{
+        height: 20px;
+        width: 100px;
+        margin-top: 14px;
+        margin-left: 0px;
+    }
+    
+    .danfos{
+        height: 30px;
+        width: 100px;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+
+    .text-us{
+        text-align: center;
+        font-size: 3.2vw;
+        margin-top: 2px;
+    }
+
+    .heading-text{
+        text-align: center;
+        font-size: 3.2vw;
+        margin-top: 2px;
+    }
+
+    .img-us{
+        display: none;
+    }
+
+    .heading-title{
+        color:rgb(240, 89, 41);
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    .heading-name{
+        text-align: center;
+        margin-right: 0;
+    }
+    
+    .hr-white{
+        width: 100%;
+        height: 1px;
+        padding-right: 0px !important;
+    }
+    
+    .heading-text{
+        text-align: center;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .heading-btn{
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 20px;
+        background-color: rgb(240, 89, 41);
+        font-size: 3vw;
+    }
+    
+    .mobile-margin{
+        margin-bottom: 50px;
+    }
+
+    .card-product{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 290px;
+        width: 80vw !important;
+        margin-top: 30px;
+        background-color: rgb(43, 43, 43) !important;
+        border: 0px transparent solid !important;
+    }
+    .last-link{
+        margin-bottom: 50px !important;
+    }
+    .flex-center{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-bottom{
+        
+        position: relative;
+        
+      }
+
+      .center{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+    .card-service{
+        margin-bottom: 20px;
+        
+    }
+
+
+    .flex-bottom-mobile{
+        display: block;
+        position: relative;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+    }
+  /*Unicas*/
+
+  #services{
+    background-image: url(./res/industries.jpg);
+    background-size: cover;
+    background-position: top;
+    height: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.box100{
+    height: 200px;
+}
+
+.container-networks-lenguaje{
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    bottom: 10px;
+    left: 10px;
+}
+
+.text-bottom-home span{
+    background-color: rgba(255, 72, 0, 0.726);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    font-size: 6vw;
+    font-family: poppinsSemiBold;
+}
+
+.flex-center-left{
+    margin-top: 50px;
+    align-items: center;
+}
+
+.card-form-title{
+    margin-top: 50px;
+    font-size: 7vw;
+}
+
+.card-form-subTitle{
+   
+    padding: 0px;
+    font-size: 4.2vw;
+}
+
+.card-form{
+    height: auto !important;
+    margin-bottom: 100px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.form-control{
+    margin-top: 15px;
+}
+
+.btnSubmit {
+    display: block;
+    width: 30% !important;
+    margin-top: 50px;
+    height: 40px;
+    background-color: #f05929;
+    font-family: poppinsRegular !important;
+    border-radius: 5;
+    border: 0px !important;
+    font-size: 4vw !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.first-title-contact{
+    font-size: 4.2vw ;
+    text-align: center !important;
+}
+.second-title-contact{
+    font-size: 7vw;
+    text-align: center !important; 
+}
+
+.sub-title-contact{
+    font-size: 3.2vw;
+    text-align: center;
+}
+
+.icon-footer{
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.text-uppercase {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.links{
+    text-align: center !important;
+}
+
+p{
+    text-align: center;
+}
+
+.footer{
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.986);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-screen{
+    display: initial !important;
+}
+
+.md-textarea{
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/*temporal*/
+#bloqueo{
+    z-index: 54 !important;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    text-align: center;
+    width: 100vw;
+    height: 120vw;
+}
+
+
+.text-prox-one{
+    font-size: 9vw;
+}
+
+.text-prox-two{
+    font-size: 10vw;
+}
+
+}
+

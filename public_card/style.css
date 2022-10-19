@@ -1,0 +1,716 @@
+
+
+
+@font-face {
+    font-family: helveticaRegular;
+    src: url(../fonts/helvetica.ttf);
+}
+
+
+@font-face{
+    font-family: poppinsSemiBold;
+    src: url(../fonts/poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face{
+    font-family: poppinsRegular;
+    src: url(../fonts/poppins/Poppins-Regular.ttf);
+}
+
+@font-face{
+    font-family: poppinsLight;
+    src: url(../fonts/poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: poppinsBold;
+    src: url(../fonts/poppins/Poppins-Bold.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+
+a{
+    color: white !important;
+    text-decoration: none!important;
+}
+
+.btn{
+    background-color: #f05929 !important;
+    border-radius: 12px !important;
+    color: white !important;
+    font-family: poppinsRegular !important;
+    font-size: 0.9rem !important;
+}
+
+.btn:hover{
+    background-color: white !important;
+    color: #000000 !important;
+    transition: all 0.4s;
+}
+
+.nav-link{
+    color: white;
+    border-bottom: 3px solid #f0572900 ;
+    padding-bottom: 0px;
+    margin-bottom: 5px ;
+    font-family: helveticaRegular ; 
+    font-size: 16px;
+    margin-right: 15px;
+}
+
+.nav-link:hover{
+    color: white;
+    border-bottom: 3px solid #f05929 ;
+    transition: all 0.3s;
+}
+
+html {
+    height: 100vh;
+}
+
+.bg-nav{
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    font-family: FOne;
+    font-size: 25rem;
+
+}
+
+.hr-vertical{
+    height: 30px;
+    margin-left: 10px;
+}
+
+.btn-español, .btn-ingles{
+    font-size: 20px;
+    margin-left: 5px;
+    font-family: helveticaRegular ;
+}
+
+svg{
+    fill: rgb(255, 255, 255);
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+svg:hover{
+    fill: #f05929;
+}
+
+
+.contenedor-lenguaje{
+    margin-top: -5.5px;
+    margin-left: 5px;
+}
+.invisible{
+    display: none !important;
+}
+
+.img-logo{
+    height: 70px;
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+
+
+.dropdownVentas{
+    transform: translateX(-60px);
+}
+.ventas {
+    margin-right: 20px;
+}
+
+
+
+
+.container-networks-lenguaje{
+    position: fixed;
+    display: flex;
+    z-index: 100;
+    bottom: 20px;
+    left: 10px;
+}
+
+#contenido{
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #000000, #111111);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #111111); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bg-comb-nav{
+   background-color: #1b1b1b00 ;
+    background-size: cover;
+    position: fixed;
+    width: 100% !important;
+}
+
+#footer{
+    height: 40px;
+    background-color: #12121200;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bg-machine{
+    background-image: url(./source/fondoMaquina.png);
+    background-size: contain;
+}
+
+.dropdown-item{
+    font-family: poppinsLight !important;
+}
+.img-employed{
+    height: 60vh;
+    display: block;
+    margin:auto;
+    animation: fadeIn 1s ease-in-out  ;
+}
+
+.liEmpleado{
+  
+   
+    color: rgb(255, 255, 255);
+    list-style: none;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-right: 0px ;
+    animation: fadeInLeft 1s ease-in-out  ;
+    
+}
+
+.liEmpleado::marker{
+    margin-right: 0;
+}
+
+.textLiEmpleado{
+    color: #f05929;
+    margin-left: 0px;
+    font-family: poppinsRegular !important;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.spanLi{
+    display:inline-block;
+}
+
+.col-md-4{
+    height: 100% ;
+}
+
+.maquinaFondo{
+    background-image: url(./source/Fondo\ Maquina.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.textCaract{
+    color: #dbdbdb;
+    font-size: 1.7rem;
+    
+    font-family: poppinsSemibold;
+}
+
+.translateTop{
+    transform: translateY(-30px);
+}
+.translateTopD{
+    transform: translateY(-25px ) ;
+    transform: translateX(50px);
+}
+
+.v-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+ }
+
+ .v-centerD {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+ }
+ 
+ .referidosTxt{
+     color: white;
+     margin-top: 2vw;
+     margin-bottom: 0px;
+     font-family: poppinsLight;
+     font-size: 1.1rem;
+ }
+
+ .textDesc{
+     color: white;
+     font-family: poppinsLight;
+     font-size: 1rem !important;
+     margin-bottom: 1.4vw;
+ }
+
+
+ .btn-wsp{
+     border: 3px #f05929 solid ; 
+     border-radius: 18px ;
+     padding-right: 15px  !important;
+     padding-left: 15px  !important;
+     padding-top: 10px  !important;
+     padding-bottom: 10px  !important;
+     color: white ;
+     margin-top: 10px;
+     text-align: center ;
+     transition: 0.4s ;
+     font-family: Arial, Helvetica, sans-serif ;
+ }
+
+ .btn-wsp:hover{
+    
+    background-color: #f05929;
+ }
+
+ .btn-email{
+    border: 3px #f05929 solid ; 
+    padding-right: 15px  !important;
+    padding-left: 15px  !important;
+    padding-top: 10px  !important;
+    padding-bottom: 10px  !important;
+    margin-top: 10px;
+    text-align: center  ;
+    font-family: Arial, Helvetica, sans-serif ;
+ }
+
+ .btn-email:hover{
+     background-color: #f05929 ;
+ }
+
+ .btn-mapsHidraulica{
+     margin-top: 10px;
+     background-color: #f05929 ;
+     padding: 0 ;
+     padding-right: 15px  !important;
+     padding-top: 10px  !important;
+     padding-bottom: 10px  !important;
+     padding-left: 15px !important;
+     text-align: left ;
+     border: 3px #f05929 solid ;
+     width: auto !important;
+ }
+
+ 
+ .cristianCastillo{
+     height: 120px;
+     transition:all 0.3s ;
+     margin-left: 5px ;
+     border-radius: 30px ;
+     border: 3px rgba(255, 166, 0, 0) solid ;
+     animation: fadeInDown 1s ease-in-out  ;
+ }
+
+ .cristianCastillo:hover{
+    border: 3px #f05929 solid ;
+}
+
+
+ 
+ .LucasFaber{
+     height: 120px;
+     transition:all 0.3s ;
+     margin-left: 5px ;
+     border-radius: 30px ;
+     border: 3px rgba(255, 166, 0, 0) solid ;
+     animation: fadeInDownOne 1s ease-in-out   ;
+ }
+
+.LucasFaber:hover{
+    border: 3px #f05929 solid ;
+}
+
+ .DanielPerez{
+     height: 120px;
+     transition:all 0.3s ;
+     margin-left: 5px ;
+     border-radius: 30px ;
+     border: 3px rgba(255, 166, 0, 0) solid ;
+     animation: fadeInDownTwo 1s ease-in-out  ;
+ }
+
+ .DanielPerez:hover{
+    border: 3px #f05929 solid ;
+}
+
+.fa-instagram{
+    padding-left: 40px ;
+    color: white ;
+    margin-top: 10px;
+}
+
+.fa-facebook{
+    padding-left: 40px ;
+    color: white  ;
+    margin-top: 10px;
+}
+
+.fa-phone{
+    transform: scaleX(-1);
+    color: white  ;
+    margin-top: 10px;
+}
+
+.fa-envelope{
+    color: white  ;
+    padding-left: 40px ;
+    margin-top: 10px;
+}
+
+.fa-chevron-right{
+    color: black;
+    margin-left: 0px;
+    
+    padding: 8px;
+    border-radius: 12px;
+  
+    margin-left: 145px;
+}
+
+.dropdown-menu{
+    text-align: center ;
+    background-color: rgba(53, 53, 53, 0.87) !important;
+    color: white ;
+}
+.dropdown-item{
+    color: white ;
+    font-family: poppinsLight !important;
+}
+.dropdown-item:hover{
+    color:white ;
+    background-color: rgba(70, 70, 70, 0.87) !important;
+}
+
+.noWeb{
+    display: none;
+}
+
+.textFoot{
+    text-align: right;
+    color: rgb(209, 209, 209);
+    margin-top: 10px;
+    font-size: 1rem ;
+    
+}
+
+.name{
+    color: rgb(255, 255, 255) ;
+    font-family: poppinsSemiBold !important ;
+    margin-bottom: -10px;
+}
+
+.bi-house-fill{
+    fill: white;
+    position: absolute !important;
+    z-index: 100 !important; 
+    bottom: 0;
+}
+
+.home{  
+    background-color: #f05929;
+    position: absolute;
+    height: 50px !important;
+    width: 50px!important;
+    z-index: 100 !important;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 12px;
+}
+
+.home svg{
+    fill: #dddddd;
+    height: 50px;
+    width: 30px;
+}
+
+@media (max-width: 767.98px){
+
+    .home{  
+        background-color: #f05929;
+        position: fixed;
+        height: 50px !important;
+        width: 50px!important;
+        z-index: 100 !important;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 12px;
+    }
+    
+    .home svg{
+        fill: #dddddd;
+        height: 50px;
+        width: 30px;
+    }
+
+.dropdownVentas{
+    transform: initial ;
+}
+.LucasFaber{
+    height: 100px;
+}
+
+.cristianCastillo{
+    height: 100px;
+}
+
+.btn {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+    .img-logo{
+        height: 55px;
+    }
+
+    #contenido{
+        background: #000000;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to bottom, #000000, #292929);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #000000, #292929); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-position: center;
+        background-size: cover;
+        height: unset;
+        padding-top: 80px;
+    }
+    
+    .maquinaFondo{
+        background-image: unset ;
+        background-size: cover;
+        background-position: center;
+    }
+    .textLiEmpleado{
+        text-align: center;
+        font-size: 1.3rem !important;
+    }
+    .textCaract{
+        text-align: center;
+        margin-top: 25px ;
+        margin-bottom: 20px ;
+        
+    }
+    .textDesc{
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .v-centerD {
+        padding-top: 0px !important;
+        margin-top: 0 !important;
+    }
+
+    
+
+    .img-employed{
+        height: 90vw ;
+        display: block;
+        margin:auto;
+    }
+
+    .bg-nav{
+        background-color: rgb(0, 0, 0) !important;
+        position: fixed !important;
+    }
+    .noMobile{
+        display: none ;
+    }
+
+    .noWeb{
+        display: initial;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .dropdown-menu{
+        text-align: center !important;
+        background-color: rgb(53, 53, 53)  !important;
+        color: white !important;
+    }
+    .dropdown-item{
+        color: white;
+        font-family: poppinsLight !important;
+    }
+    .dropdown-item:hover{
+        color:white ;
+        background-color: rgba(70, 70, 70, 0.87) !important ;
+    }
+    .translateTopD{
+        transform: translateX(0) ;
+    }
+    .centerDblock{
+        display: flex;
+        justify-content: center;
+    }
+
+    .textDesc{
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .referidosTxt{
+        margin-top: 30px;
+        text-align: center;
+    }
+    button{
+        text-align: center;
+        margin :5px ;
+    }
+
+    #footer{
+       height: unset;
+        background-color: #303030 !important;
+        position: initial;
+        margin-top: 100px;
+    }
+    .footerMobil{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .v-centerMobil{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .textFoot{text-align: center;}
+
+    .iconFoot{
+        height: 100px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .btn-mapsHidraulica{
+        text-align: center ;
+        margin-top: 10px;
+        background-color: #f05929 ;
+        border-radius: 18px ;
+        color: white ;
+        padding: 0 ;
+        padding-top: 5px ;
+        padding-bottom: 5px ;
+        border: 3px #f05929 solid ;
+        font-family: Arial, Helvetica, sans-serif ;
+        transition: 0.4s ;
+    }
+    .bg-comb-nav{
+        background-image: unset;
+        background-color: #1b1b1b !important;
+        width: 100% !important;
+    }
+}
+
+
+.active{
+    font-size: 25px !important;
+    color: #f05929 !important;
+}
+.btn-español:hover , .btn-ingles:hover, .active{
+    color: #f05929 ;
+}
+
+.fadeIn{
+    animation: fadeIn 1s ease-in-out  ;
+}
+
+.fadeInDown{
+    animation: fadeInDown 1s ease-in-out  ;
+}
+
+.fadeInLeft{
+    animation: fadeInLeft 1s ease-in-out  ;
+}
+@keyframes fadeIn {
+        0%{
+            opacity: 0%;
+        }
+
+        50%{
+            opacity: 0%;
+
+        }
+
+        100%{
+            opacity: 100%;
+        }
+}
+
+@keyframes fadeInLeft {
+    0%{
+        opacity: 0%;
+        transform: translateX(-30px);
+    }
+
+    50%{
+        opacity: 0%;
+        transform: translateX(-30px);
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+
+@keyframes fadeInDown {
+    0%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+
+    40%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+@keyframes fadeInDownOne {
+    0%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+
+    50%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
+
+
+@keyframes fadeInDownTwo {
+    0%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+
+    70%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+
+    100%{
+        opacity: 100%;
+    }
+}
