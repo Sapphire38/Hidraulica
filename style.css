@@ -33,7 +33,7 @@
 a{
     color: rgb(255, 255, 255);
     text-decoration: none !important;
-    font-size: 16px;
+    font-size: 1vw;
     margin-bottom: 2px !important;
     font-family: helveticaRegular;
 }
@@ -99,6 +99,7 @@ p{
     border-bottom: 3px solid #f0572900 ;
     padding-bottom: 0px;
     margin-bottom: 5px !important;
+    font-size: 1vw;
    
 }
 
@@ -147,7 +148,7 @@ p{
 }
 
 .h-30{
-    height: 45vh;
+    height: 65vh;
 }
 
 .padding-r-50{
@@ -179,7 +180,7 @@ p{
 }
 
 .text-bottom-home span{
-    background-color: rgba(255, 72, 0, 0.726);
+    background-color: #D92826;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
@@ -212,7 +213,7 @@ p{
 }
 
 .btn-español:hover , .btn-ingles:hover, .active{
-    color: #f05929;
+    color: #D92926;
 }
 
 .contenedor-lenguaje{
@@ -246,7 +247,7 @@ p{
 }
 
 .text-bottom-us span{
-    background-color: rgba(255, 72, 0, 0.726);
+    background-color: #d92926;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 5px;
@@ -289,15 +290,16 @@ p{
 }
 
 .heading-title{
-    color:rgb(240, 89, 41);
+    color:#D92826;
     text-align: right;
     margin-right: 50px;
     margin-bottom: 0px;
     font-family: poppinsRegular;
+    font-size: 2vw;
 }
 
 .products-title{
-    color:rgb(240, 89, 41);
+    color:#D92826;
     text-align: left;
     margin-top: 30px;
     font-family: poppinsRegular;
@@ -307,6 +309,7 @@ p{
     text-align: right;
     margin-right: 50px;
     margin-bottom: 0px;
+    font-size: 4vw;
 }
 
 .hr-white{
@@ -383,63 +386,11 @@ p{
 
 
 
-@media  (max-width: 1366px) {
-    .card-product{
-        height: 260px;
-    }
 
-    #bloqueo{
-        z-index: 54 !important;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        width: 100vw;
-        height: 40VW !important;
-    }
 
-    .card-form{
-        height: 70vh !important;
-        background-color: rgb(43, 43, 43);
-        z-index: 2;
-        cursor: auto;
-        display: flex;
-        justify-content: center;
-       
-    }
-
-    .card-form-title{
-        text-align: center;
-        font-family: poppinsSemiBold;
-        font-size: 25px !important;
-    }
-    
-    .card-form-subTitle{
-        text-align: center;
-        font-size: 15px !important;
-        font-family: poppinsLight;
-        color: rgb(190, 190, 190);
-    }
-
-    .btnSubmit {
-        display: block;
-        width: 80px !important;
-        margin-top: 30px;
-        height: 40px !important;
-        background-color: #f05929;
-        font-family: poppinsRegular !important;
-        border-radius: 5;
-        border: 0px !important;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 8px;
-    }
-
+.img-hdccont{
+    height: 3vw;
 }
-
-
 
 
 .container-networks-lenguaje svg{
@@ -585,7 +536,7 @@ p{
 
 .services-title{
     text-align: center;
-    color: rgb(240, 89, 41);
+    color: #D92926;
     margin-bottom: 0px;
     font-family: poppinsRegular;
 }
@@ -831,7 +782,7 @@ textarea::placeholder {
     width: 100px !important;
     margin-top: 30px;
     height: 50px;
-    background-color: #f05929;
+    background-color: #D92926;
     font-family: poppinsRegular !important;
     border-radius: 5;
     border: 0px !important;
@@ -858,7 +809,7 @@ textarea::placeholder {
 .alert-class{
     color: #f75f08;
     text-align: center;
-    padding-top: 10px;
+    margin-bottom: 0;
 }
 
 .icon-footer{
@@ -914,7 +865,7 @@ textarea::placeholder {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.973);
+    background-color: rgba(0, 0, 0, 0.904);
 
 }
 
@@ -931,7 +882,7 @@ textarea::placeholder {
 }
 
 .text-prox-one{
-    color: rgb(240, 89, 41) !important;
+    color: #D92826 !important;
     font-size: 35px;
     font-family: poppinsRegular;
     animation: fade 2s infinite ease-in-out;
@@ -959,4 +910,81 @@ textarea::placeholder {
 
 #contenedor{
     padding: 20px ;
+}
+
+.imgs-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 2vw;
+}
+
+.lineC{
+    width: 2px;
+}
+
+@media  (max-width: 1366px) {
+    .card-product{
+        height: 260px;
+    }
+
+    #bloqueo{
+        z-index: 54 !important;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100vw;
+        height: 40VW !important;
+    }
+
+    .card-form{
+        height: 70vh !important;
+        background-color: rgb(43, 43, 43);
+        z-index: 2;
+        cursor: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+
+    .card-form-title{
+        text-align: center;
+        font-family: poppinsSemiBold;
+        font-size: 1.5vw !important;
+    }
+    
+    .card-form-subTitle{
+        text-align: center;
+        font-size: 1.2vw !important;
+        font-family: poppinsLight;
+        color: rgb(190, 190, 190);
+    }
+
+    .btnSubmit {
+        display: block;
+        width: 80px !important;
+        margin-top: 30px;
+        height: 40px !important;
+        background-color: #f05929;
+        font-family: poppinsRegular !important;
+        border-radius: 5;
+        border: 0px !important;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 8px;
+        font-size: 1vw !important;
+    }
+
+    .form-control{
+        font-size: 1vw;
+    }
+
+    .h-30{
+        height:65vh;
+    }
+
 }
