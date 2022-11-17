@@ -536,7 +536,7 @@ p{
 
 .services-title{
     text-align: center;
-    color: #D92926;
+    color: #d92826;
     margin-bottom: 0px;
     font-family: poppinsRegular;
 }
@@ -574,7 +574,7 @@ p{
     
 }
 .card-service{
-    background-color: rgb(41, 41, 41);
+    background-color: #d92826;
     display: flex;
     justify-content: center;
     align-items: center;

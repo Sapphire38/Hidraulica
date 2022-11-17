@@ -137,7 +137,6 @@
     }
 
     .text-bottom-home span{
-        background-color: rgba(255, 72, 0, 0.726);
         padding: 0;
         padding-left: 10px;
         padding-right: 10px;
@@ -145,7 +144,6 @@
     }
     
     .text-bottom-us span{
-        background-color: rgba(255, 72, 0, 0.726);
         padding: 0;
         padding-left: 10px;
         padding-right: 10px;
@@ -198,7 +196,7 @@
     }
 
     .heading-title{
-        color:rgb(240, 89, 41);
+
         text-align: center;
         margin-right: 0;
     }
@@ -227,7 +225,6 @@
         margin-right: auto;
         text-align: center;
         margin-top: 20px;
-        background-color: rgb(240, 89, 41);
         font-size: 3vw;
     }
     
@@ -303,7 +300,6 @@
 }
 
 .text-bottom-home span{
-    background-color: rgba(255, 72, 0, 0.726);
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 5px;
@@ -343,7 +339,6 @@
     width: 30% !important;
     margin-top: 50px;
     height: 40px;
-    background-color: #f05929;
     font-family: poppinsRegular !important;
     border-radius: 5;
     border: 0px !important;
